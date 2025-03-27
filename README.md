@@ -69,34 +69,12 @@ La aplicación estará disponible en `http://localhost:3000`
 
 ### Productos
 
-- `GET /products` - Obtener todos los productos
-- `GET /products/:id` - Obtener un producto por ID
-- `POST /products` - Crear un nuevo producto
-- `PATCH /products/:id` - Actualizar un producto existente
-- `DELETE /products/:id` - Eliminar un producto
+- `GET /productos` - Obtener todos los productos
+- `GET /productos/:id` - Obtener un producto por ID
+- `POST /productos` - Crear un nuevo producto
+- `PATCH /productos/:id` - Actualizar un producto existente
+- `DELETE /productos/:id` - Eliminar un producto
 
-### Ejemplo de objeto Producto
-
-```json
-{
-  "name": "Producto de ejemplo",
-  "description": "Esta es una descripción del producto",
-  "price": 99.99,
-  "isActive": true
-}
-```
-
-## Estructura del proyecto
-
-- `src/products/entities/` - Definición de entidades
-- `src/products/dto/` - Objetos de transferencia de datos
-- `src/products/products.controller.ts` - Controlador REST
-- `src/products/products.service.ts` - Lógica de negocio
-- `src/products/products.module.ts` - Módulo de productos
-
-## Implementación del Frontend
-
-Para implementar el frontend, puedes crear una aplicación separada utilizando React, Angular o Vue que se comunique con estos endpoints API.
 
 ## Licencia
 
